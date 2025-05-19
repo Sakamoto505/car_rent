@@ -1,0 +1,23 @@
+echo '# Rails
+/log/*
+/tmp/*
+/config/master.key
+/config/credentials.yml.enc
+/db/*.sqlite3
+/storage/*
+!/storage/.keep
+/public/packs
+/public/assets
+.env
+.env.*
+
+# React
+/frontend/node_modules
+/frontend/build
+/frontend/.env
+/frontend/.env.*
+
+# General
+.DS_Store
+.idea/
+.vscode/' > .gitignore
